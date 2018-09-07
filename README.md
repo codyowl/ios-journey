@@ -5,3 +5,7 @@
 
 ## Understanding Delegates:
  - [passing data between view controllers using delegates](https://github.com/codyowl/ios-journey/tree/master/UnderstandingDelegates)
+
+## Tiny Concepts
+# A project full of tiny concepts like:
+ - alert
