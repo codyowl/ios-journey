@@ -16,8 +16,10 @@ Create a protocol outside the class of your view controller 
  ``` 
 
 ## step 2:
-Create a property for the delegate in uiviewcontroller inherited class var <delegate_variable> = <delegate_name> ?= nil  
-
+Create a property for the delegate in uiviewcontroller inherited class
+```
+ var <delegate_variable> = <delegate_name> ?= nil  
+```
 ## step 3 :
 Create a property for the delegate in uiviewcontroller inherited class 
 ```
