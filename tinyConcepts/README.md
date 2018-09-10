@@ -28,6 +28,8 @@
   - UIImagePickerController()
 
 ## code snippet:
+  - photo library:
+
 ```
     @IBAction func uploadButtonPressed(_ sender: Any) {
         let uploader  = UIImagePickerController()
@@ -36,5 +38,14 @@
         present(uploader, animated: true, completion: nil)
     }
 ```
-
+  - camera:
+```
+@IBAction func cameraButtonPressed(_ sender: Any) {
+        let cameraUploader = UIImagePickerController()
+        
+        cameraUploader.sourceType = .camera
+        
+        present(cameraUploader, animated: true, completion: nil)
+    }
+```
 
