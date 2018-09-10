@@ -14,6 +14,7 @@
 		AFD4B2D4214281A300323F7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFD4B2D2214281A300323F7A /* LaunchScreen.storyboard */; };
 		AFD4B2DF214281A300323F7A /* tinyConceptsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD4B2DE214281A300323F7A /* tinyConceptsTests.swift */; };
 		AFD4B2EA214281A300323F7A /* tinyConceptsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD4B2E9214281A300323F7A /* tinyConceptsUITests.swift */; };
+		AFE6F05C214694F100489093 /* imageUploadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE6F05B214694F100489093 /* imageUploadViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		AFD4B2E5214281A300323F7A /* tinyConceptsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tinyConceptsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFD4B2E9214281A300323F7A /* tinyConceptsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tinyConceptsUITests.swift; sourceTree = "<group>"; };
 		AFD4B2EB214281A300323F7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFE6F05B214694F100489093 /* imageUploadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imageUploadViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				AFD4B2D0214281A300323F7A /* Assets.xcassets */,
 				AFD4B2D2214281A300323F7A /* LaunchScreen.storyboard */,
 				AFD4B2D5214281A300323F7A /* Info.plist */,
+				AFE6F05B214694F100489093 /* imageUploadViewController.swift */,
 			);
 			path = tinyConcepts;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			files = (
 				AFD4B2CC2142819800323F7A /* ViewController.swift in Sources */,
 				AFD4B2CA2142819800323F7A /* AppDelegate.swift in Sources */,
+				AFE6F05C214694F100489093 /* imageUploadViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

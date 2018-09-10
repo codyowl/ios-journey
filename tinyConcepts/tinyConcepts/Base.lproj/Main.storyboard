@@ -34,43 +34,37 @@
                     </view>
                     <navigationItem key="navigationItem" id="SLZ-RG-5ff"/>
                     <connections>
-                        <segue destination="TLa-Jd-mIB" kind="show" identifier="firstSegue" id="bYB-f7-iJz"/>
+                        <segue destination="ARN-TW-Pci" kind="show" identifier="firstSegue" id="o4o-eN-UMw"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="840.79999999999995" y="118.29085457271366"/>
         </scene>
-        <!--Second View Controller-->
-        <scene sceneID="qQz-R8-AKQ">
+        <!--Image Upload View Controller-->
+        <scene sceneID="fjg-w1-aZU">
             <objects>
-                <viewController id="TLa-Jd-mIB" customClass="secondViewController" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="v1m-z2-d6I">
+                <viewController id="ARN-TW-Pci" customClass="imageUploadViewController" customModule="tinyConcepts" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="1QX-31-TSl">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="First label : " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t75-9i-744">
-                                <rect key="frame" x="103" y="138" width="185" height="64"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j6P-Nf-7J2">
+                                <rect key="frame" x="133" y="254" width="87" height="65"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ICi-cs-jtx">
-                                <rect key="frame" x="95" y="234" width="185" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
+                                <state key="normal" title="Upload"/>
+                                <connections>
+                                    <action selector="uploadButtonPressed:" destination="ARN-TW-Pci" eventType="touchUpInside" id="td5-Zo-o9s"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="l46-Ie-Qnh"/>
+                        <viewLayoutGuide key="safeArea" id="edd-jq-7uV"/>
                     </view>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dbf-ac-6h8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5sF-Y7-6dc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1733.5999999999999" y="117.39130434782609"/>
+            <point key="canvasLocation" x="1701.5999999999999" y="106.59670164917542"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Gg2-4o-Zg2">
