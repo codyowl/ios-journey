@@ -11,3 +11,4 @@
 
  - ## A project full of tiny concepts like:
    - alert
+   - image uploader 
