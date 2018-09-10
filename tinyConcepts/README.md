@@ -1,4 +1,5 @@
 # Alert
+![alert](https://user-images.githubusercontent.com/9798362/45214441-17edff00-b2b8-11e8-95ed-ebe472dd1977.png)
 
 ## UIKit Methods :  
    - UIAlertController 
