@@ -9,6 +9,11 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    let secondView = "secondViewController"
+    let firstSegue = "firstSegue"
+    
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,8 +24,10 @@ class ViewController: UIViewController {
     @IBAction func pressButtonPressed(_ sender: Any) {
         let alert = UIAlertController(title: "First alert", message: "Hurray we did it !" , preferredStyle: .alert)
         
-        let action = UIAlertAction(title: "Done", style: .default, handler: nil)
-        
+        let action = UIAlertAction(title: "Done", style: UIAlertActionStyle.default, handler: {
+            (_)in
+            self.performSegue(withIdentifier: "firstSegue", sender: self)
+        })
         
         alert.addAction(action)
         
@@ -28,6 +35,8 @@ class ViewController: UIViewController {
         
         
     }
+    
+    
     
 }
 
