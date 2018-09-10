@@ -20,3 +20,21 @@
         
     }
 ```   
+
+# Image uploader
+![image_uploader](https://user-images.githubusercontent.com/9798362/45297674-bb8f1780-b523-11e8-9fd7-3065fa58a0d2.png)
+
+## UIKit Methods:
+  - UIImagePickerController()
+
+## code snippet:
+```
+    @IBAction func uploadButtonPressed(_ sender: Any) {
+        let uploader  = UIImagePickerController()
+     
+        // to present our uploader
+        present(uploader, animated: true, completion: nil)
+    }
+```
+
+
