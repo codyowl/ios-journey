@@ -24,5 +24,13 @@ class imageUploadViewController: UIViewController {
         present(uploader, animated: true, completion: nil)
     }
     
-
+  
+    @IBAction func cameraButtonPressed(_ sender: Any) {
+        let cameraUploader = UIImagePickerController()
+        
+        cameraUploader.sourceType = .camera
+        
+        present(cameraUploader, animated: true, completion: nil)
+    }
+    
 }
