@@ -7,7 +7,7 @@
  - [passing data between view controllers using delegates](https://github.com/codyowl/ios-journey/tree/master/UnderstandingDelegates)
 
 ## Views:
- - ### Understanding Table View(https://github.com/codyowl/ios-journey/tree/master/UnderstandingTableView)
+ - [Understanding Table View](https://github.com/codyowl/ios-journey/tree/master/UnderstandingTableView)
 
 # Tiny Concepts
  [Tiny Concepts](https://github.com/codyowl/ios-journey/tree/master/tinyConcepts)
