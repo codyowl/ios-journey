@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AF61C58F2147842B00A01871 /* keyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF61C58E2147842B00A01871 /* keyboardViewController.swift */; };
 		AFD4B2CA2142819800323F7A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD4B2C92142819800323F7A /* AppDelegate.swift */; };
 		AFD4B2CC2142819800323F7A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD4B2CB2142819800323F7A /* ViewController.swift */; };
 		AFD4B2CF2142819800323F7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFD4B2CD2142819800323F7A /* Main.storyboard */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AF61C58E2147842B00A01871 /* keyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = keyboardViewController.swift; sourceTree = "<group>"; };
 		AFD4B2C62142819800323F7A /* tinyConcepts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tinyConcepts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFD4B2C92142819800323F7A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AFD4B2CB2142819800323F7A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 				AFD4B2D2214281A300323F7A /* LaunchScreen.storyboard */,
 				AFD4B2D5214281A300323F7A /* Info.plist */,
 				AFE6F05B214694F100489093 /* imageUploadViewController.swift */,
+				AF61C58E2147842B00A01871 /* keyboardViewController.swift */,
 			);
 			path = tinyConcepts;
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 				AFD4B2CC2142819800323F7A /* ViewController.swift in Sources */,
 				AFD4B2CA2142819800323F7A /* AppDelegate.swift in Sources */,
 				AFE6F05C214694F100489093 /* imageUploadViewController.swift in Sources */,
+				AF61C58F2147842B00A01871 /* keyboardViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

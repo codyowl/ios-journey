@@ -33,4 +33,9 @@ class imageUploadViewController: UIViewController {
         present(cameraUploader, animated: true, completion: nil)
     }
     
+    
+    @IBAction func nextViewButtonPressed(_ sender: Any) {
+        performSegue(withIdentifier: "keyboardSegue", sender: nil)
+    }
+    
 }
