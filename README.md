@@ -8,6 +8,7 @@
 
 ## Views:
  - [Understanding Table View](https://github.com/codyowl/ios-journey/tree/master/UnderstandingTableView)
+ - [Understanding scroll View](https://github.com/codyowl/ios-journey/tree/master/ScrollViewUnderstanding)
 
 # Tiny Concepts
  [Tiny Concepts](https://github.com/codyowl/ios-journey/tree/master/tinyConcepts)
