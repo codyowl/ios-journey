@@ -2,6 +2,8 @@
 
 ## Understanding view controllers:
  - [passing data between view controllers](https://github.com/codyowl/ios-journey/tree/master/passDataViewController)
+ - [passing data between view controllers with instance property](https://github.com/codyowl/ios-journey/tree/master/passingDataWithProperty)
+
 
 ## Understanding Delegates:
  - [passing data between view controllers using delegates](https://github.com/codyowl/ios-journey/tree/master/UnderstandingDelegates)
